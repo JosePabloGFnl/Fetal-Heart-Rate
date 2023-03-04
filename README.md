@@ -35,10 +35,10 @@ The next variables from CTG.xls were selected for the DataFrame 'data' with the 
 - FS : fs_pattern 
 - SUSP : sus_pattern
 
-- Cutted null values, 3 rows cut
+Cutted null values, 3 rows cut
 
-- Defined outlier ranges for data with clear gaps depicted on the histograms or extremely long tails
-- Variables from Tendency to sus_pattern are categorical, so they where dropped for the correlation matrix and the EDA to target variable
+Defined outlier ranges for data with clear gaps depicted on the histograms or extremely long tails
+Variables from Tendency to sus_pattern are categorical, so they where dropped for the correlation matrix and the EDA to target variable
 
 ## FE
 
