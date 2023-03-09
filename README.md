@@ -42,5 +42,10 @@ Variables from Tendency to sus_pattern are categorical, so they where dropped fo
 
 ## FE
 
+Comparing the possibility of dropping or capping outliers resulted on finding that the best option was to drop them. This is because capping our columns
+would change the values of the columns affecting the relations it has with other columns that didn't had outliers.
+
+Dataframes with normalized and standarized values were created for comparison on the modeling stage.
+
 
 ## Model
