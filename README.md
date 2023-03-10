@@ -49,3 +49,7 @@ Dataframes with normalized and standarized values were created for comparison on
 
 
 ## Model
+
+For the model, the algorithm used was Random Forest Classifier due to the problem being of classification.
+
+The three results were made to compare each of the feature engineering techniques to compare and analyze.
