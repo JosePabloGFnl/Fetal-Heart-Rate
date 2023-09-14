@@ -1,5 +1,60 @@
 # Fetal-Heart-Rate
 
+## Previous configurations
+
+In order to run this script, you will need:
+
+- The necessary libraries installed
+- Create .env file with the necessary environmental variables
+- Obtain input file
+
+### Installing the libraries
+
+The script works with the following versions:
+- python `3.11.5`
+- pandas `2.1.0`
+- numpy `1.25.2`
+- matplotlib `3.7.2`
+- python-dotenv `1.0.0`
+- scikit-learn `1.3.0`
+- Jinja2 `3.1.2`
+- xlrd `2.0.1`
+
+To install the necessary libraries, run the following code in a Python executer
+``` CMD Commands
+pip install python-dotenv
+```
+
+To view the version of your libraries, run the following:
+``` CMD Commands
+pip show python-dotenv
+```
+
+Another alternate method to view all of the installed libraries if the following:
+``` CMD Commands
+pip show list
+```
+
+### Environmental variables
+
+The `.env` file needs to have the following environmental variables for the script to work properly:
+
+- `CTG`: Dataset with medical information on fetal heart rate experiment results.
+- `CTG_sheet`: Sheetname where the main information is required from
+
+Your `.env` file should look like this:
+
+``` textplain
+CTG = 'CTG.xls'
+CTG_sheet = 'Data'
+```
+
+### Input data
+
+The input data that used is from the UC Irvine Machine Learning Repository website, where the dataset is named "Cardiotocography". This daatset contains three tabs, the ones we're interested in are "Description" and "Data", where description focuses on explaining each of the columns used on Data where as the latter has all of the experiments' information that wee need. Here is the link to obtain it:
+
+- `CTG`: https://archive.ics.uci.edu/dataset/193/cardiotocography
+
 ## EDA done
 The next variables from CTG.xls were selected for the DataFrame 'data' with the next name changes:
 - LB : bl_FHR
