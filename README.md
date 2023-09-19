@@ -53,7 +53,8 @@ CTG_sheet = 'Data'
 
 The input data that used is from the UC Irvine Machine Learning Repository website, where the dataset is named "Cardiotocography". This daatset contains three tabs, the ones we're interested in are "Description" and "Data", where description focuses on explaining each of the columns used on Data where as the latter has all of the experiments' information that wee need. Here is the link to obtain it:
 
-- `CTG`: https://archive.ics.uci.edu/dataset/193/cardiotocography
+- `CTG`: Campos,D. and Bernardes,J.. (2010). Cardiotocography. UCI Machine Learning Repository. https://doi.org/10.24432/C51S4N.
+- For more information, consult the written paper on this dataset: Diogo Ayres-de-campos, João Bernardes, Antonio Garrido, Joaquim Marques-de-sá & Luis Pereira-leite (2000) SisPorto 2.0: A Program for Automated Analysis of Cardiotocograms, Journal of Maternal-Fetal Medicine, 9:5, 311-318, DOI: 10.3109/14767050009053454
 
 ## EDA done
 The next variables from CTG.xls were selected for the DataFrame 'data' with the next name changes:
