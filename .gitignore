@@ -1,3 +1,4 @@
 *.xls
 *.pdf
 .env
+__pycache__/
