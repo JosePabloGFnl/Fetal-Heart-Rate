@@ -35,6 +35,12 @@ Another alternate method to view all of the installed libraries if the following
 pip show list
 ```
 
+An easier and quicker way to install is to run the following to install required packages:
+
+``` CMD Commands
+pip install -r requirements.txt
+```
+
 ### Environmental variables
 
 The `.env` file needs to have the following environmental variables for the script to work properly:
