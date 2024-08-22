@@ -31,7 +31,7 @@ class Plotting:
         return self.data[self.x].describe()
     
     def barplot(self):
-        pd.DataFrame(self.data[self.x].value_counts(normalize=True)).plot.barh()
+        pd.DataFrame(self.data[self.x].value_counts(normalize=True)).plot.bar()
         plt.title("Bar plot of "+x)
         plt.show()
         return self.data[self.x].describe()
