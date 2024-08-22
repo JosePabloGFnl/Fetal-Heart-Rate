@@ -13,7 +13,7 @@ class Plotting:
             return self.histogram()
         elif self.plot_option == 2:
             return self.boxplot()
-        elif self.plot_option == 4:
+        elif self.plot_option == 3:
             return self.barplot()
         else:
             return "Invalid plot option"
@@ -32,6 +32,6 @@ class Plotting:
     
     def barplot(self):
         pd.DataFrame(self.data[self.x].value_counts(normalize=True)).plot.bar()
-        plt.title("Bar plot of "+x)
+        plt.title("Bar plot of "+self.x)
         plt.show()
         return self.data[self.x].describe()
